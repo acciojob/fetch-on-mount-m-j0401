@@ -13,17 +13,17 @@ const APIcall=()=>{
 
     return (
     <div>
-             <ol>
+             
                 {
             div.map((data,ind)=>
               <div key={ind}>
-             <li style={{fontSize:"20px"}}>  <h2>{data.title}</h2> </li>
+               <h2>{data.id}. {data.title}</h2> 
             <p>{data.body}</p>
             </div>
 
 )
 }
-</ol>
+
         
 
 
