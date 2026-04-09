@@ -17,7 +17,7 @@ const APIcall=()=>{
                 {
             div.map((data,ind)=>
               <div key={ind}>
-             <li style={{fontSize:"20px"}}>  <h1>{data.title}</h1> </li>
+             <li style={{fontSize:"20px"}}>  <h2>{data.title}</h2> </li>
             <p>{data.body}</p>
             </div>
 
